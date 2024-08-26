@@ -3,7 +3,6 @@
 <a href="{% url 'comments:logout' %}">Logout</a>
 
 <h2>Write a comment!</h2>
-<!-- <form action="{% url 'comments:index' user_id=request.user.id %}" method="post"> -->
     <form action="{% url 'comments:index' user_id=user.id %}" method="post">
     {% csrf_token %}
     {{ form }}
