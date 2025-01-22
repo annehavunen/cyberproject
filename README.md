@@ -1,6 +1,12 @@
 # Comments
 
-Course Project I for Cyber Security Base 2024
+**Course Project I for Cyber Security Base 2024**
+
+This is a simple application where logged-in users can read and write comments. 
+The application intentionally includes security vulnerabilities 
+from the [OWASP Top 10 list](https://owasp.org/www-project-top-ten/) (2017). 
+The code contains commented lines as suggestions for fixing these issues. 
+The project also included a report analyzing each vulnerability and its corresponding fix in detail.
 
 ## Installation
 
